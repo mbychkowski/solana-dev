@@ -1,14 +1,14 @@
 [features]
 seeds = false
 skip-lint = false
-[programs.localnet]
-program_rust = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+[programs.devnet]
+program_rust = "2yG52DZc3rExTmGRmiMShAGTQvkjrchBnFW5aPhzV37p"
 
 [registry]
-url = "http://127.0.0.1"
+url = "https://solana-devnet.g.alchemy.com/v2/m2LeqehpNwV0M-_zyfc8JaNrb6lpWtU1"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "/home/user/.config/solana/id.json"
 
 [scripts]
