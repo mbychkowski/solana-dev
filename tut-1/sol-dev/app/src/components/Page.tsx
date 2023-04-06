@@ -34,12 +34,20 @@ const GlobalStyles = createGlobalStyle`
   button {
     font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
+
+  .page {
+    height: 100vh;
+    background-color: #1a202c;
+    display: flex;
+    flex-direction: column;
+  }
 `
 
-const InnterStyled = styled.div`
+const InnerStyled = styled.div`
   max-width: var(--maxWidth);
   margin: 0 auto;
   padding: 2rem;
+  flex: 1 0 auto;
 `;
 
 export default function Page(props: { children: any }) {
@@ -47,11 +55,13 @@ export default function Page(props: { children: any }) {
   return (
     <>
       <GlobalStyles />
-      <Header />
-      <InnterStyled>
-        {props.children}
-      </InnterStyled>
-      <Footer />
+      <div className='page'>
+        <Header />
+        <InnerStyled>
+          {props.children}
+        </InnerStyled>
+        <Footer />
+      </div>
     </>
   )
 }

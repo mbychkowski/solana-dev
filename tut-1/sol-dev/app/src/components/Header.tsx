@@ -6,8 +6,6 @@ const LogoStyled = styled.h1`
   font-size: 4rem;
   position: relative;
   z-index: 2;
-  margin: 2rem;
-  background: var(--black, black);
   a {
     color: white;
     font-weight: bold;
@@ -19,17 +17,17 @@ const LogoStyled = styled.h1`
 
 const HeaderStyled = styled.header`
   .logo-container {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    border-bottom: 10px solid var(--black, #011627);
-    justify-content: space-between;
+    display: flex;
     align-items: center;
+    justify-content: center;
   }
 
   .sub-text-container {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    border-bottom: 1px solid var(--black, black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--white, white);
+    color: var(--white, white);
   }
 `
 
@@ -41,12 +39,12 @@ export default function Header() {
           <Link href="/">🖼 GIF Portal</Link>
         </LogoStyled>
       </div>
+      <Nav />
       <div className="sub-text-container">
         <p>
           View your GIF collection in the metaverse ✨
         </p>
       </div>
-      <Nav />
     </HeaderStyled>
   )
 }
