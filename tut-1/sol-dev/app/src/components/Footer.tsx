@@ -6,11 +6,10 @@ const TwitterLogoStyled = styled.img`
 `
 
 const FooterStyled = styled.footer`
-  .footer-container {
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 
   a {
     color: white;

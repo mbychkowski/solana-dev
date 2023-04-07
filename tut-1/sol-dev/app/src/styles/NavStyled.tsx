@@ -13,7 +13,6 @@ const NavStyled = styled.nav`
   justify-content: center;
   max-width: var(--maxWidth)
   font-size: 1.4rem;
-  border-bottom: 10px solid var(--white, white);
 `
 
 export default NavStyled

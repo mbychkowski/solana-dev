@@ -1,7 +1,7 @@
 export default function Pictures() {
   return (
     <h1>
-      index
+      Pictures
     </h1>
   )
 }
