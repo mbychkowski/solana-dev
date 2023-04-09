@@ -4,8 +4,8 @@ import Page from '../components/Page'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-  <Page>
-    <Component {...pageProps} />
-  </Page>
+    <Page>
+      <Component {...pageProps} />
+    </Page>
   )
 }

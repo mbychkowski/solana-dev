@@ -4,6 +4,7 @@ import { createGlobalStyle } from 'styled-components'
 import styled from 'styled-components'
 import Header from './Header'
 import Footer from './Footer'
+import ButtonStyled from '../styles/ButtonStyld'
 
 const GlobalStyles = createGlobalStyle`
   html {
@@ -38,7 +39,8 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .page {
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
     background-color: #1a202c;
     display: flex;
     flex-direction: column;
@@ -51,24 +53,6 @@ const InnerStyled = styled.div`
   padding: 2rem;
   flex: 1 0 auto;
 `;
-
-const ButtonStyled = styled.button`
-  height: 45px;
-  border: 0;
-  padding-left: 40px;
-  padding-right: 40px;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
-
-  justify-content: center;
-
-  background: -webkit-linear-gradient(left, #60c657, #35aee2);
-  background-size: 200% 200%;
-  animation: gradient-animation 4s ease infinite;
-`
 
 export default function Page(props: { children: any }) {
   const [walletAddress, setWalletAddress] = useState(null)
@@ -127,7 +111,7 @@ export default function Page(props: { children: any }) {
         <Header />
         <InnerStyled>
           {!walletAddress && renderNotConnectedContainer()}
-          {props.children}
+          {walletAddress && props.children}
         </InnerStyled>
         <Footer />
       </div>
