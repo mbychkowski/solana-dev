@@ -1,0 +1,37 @@
+Streaming transaction logs mentioning 5sAeFvKkycHzV7DWMnLfZY8754CcKwWJiE885UxEooeX. Confirmed commitment
+Transaction executed in slot 221441412:
+  Signature: 4J35pjAr3fVPKm64JBfxxym6HcTg5sULxNWwoTRzVWZRfSygZCViy6zgwnyztSTwff4nbDa1bwWYPeShxCJcgjc5
+  Status: Ok
+  Log Messages:
+    Program 5sAeFvKkycHzV7DWMnLfZY8754CcKwWJiE885UxEooeX invoke [1]
+    Program log: Instruction: Initialize
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program 5sAeFvKkycHzV7DWMnLfZY8754CcKwWJiE885UxEooeX consumed 6955 of 200000 compute units
+    Program 5sAeFvKkycHzV7DWMnLfZY8754CcKwWJiE885UxEooeX success
+Transaction executed in slot 221441413:
+  Signature: 4J35pjAr3fVPKm64JBfxxym6HcTg5sULxNWwoTRzVWZRfSygZCViy6zgwnyztSTwff4nbDa1bwWYPeShxCJcgjc5
+  Status: Ok
+  Log Messages:
+    Program 5sAeFvKkycHzV7DWMnLfZY8754CcKwWJiE885UxEooeX invoke [1]
+    Program log: Instruction: Initialize
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program 5sAeFvKkycHzV7DWMnLfZY8754CcKwWJiE885UxEooeX consumed 6955 of 200000 compute units
+    Program 5sAeFvKkycHzV7DWMnLfZY8754CcKwWJiE885UxEooeX success
+Transaction executed in slot 221441413:
+  Signature: WLJfsDpne97kg1P2mVMawMnuXn3vcq7J5uRxe58P8ZMWt19ow16vNyuKwF1fWQ6k591QgbFrt9j2jmT8xakRYL8
+  Status: Ok
+  Log Messages:
+    Program 5sAeFvKkycHzV7DWMnLfZY8754CcKwWJiE885UxEooeX invoke [1]
+    Program log: Instruction: AddItem
+    Program 5sAeFvKkycHzV7DWMnLfZY8754CcKwWJiE885UxEooeX consumed 3514 of 200000 compute units
+    Program 5sAeFvKkycHzV7DWMnLfZY8754CcKwWJiE885UxEooeX success
+Transaction executed in slot 221441415:
+  Signature: WLJfsDpne97kg1P2mVMawMnuXn3vcq7J5uRxe58P8ZMWt19ow16vNyuKwF1fWQ6k591QgbFrt9j2jmT8xakRYL8
+  Status: Ok
+  Log Messages:
+    Program 5sAeFvKkycHzV7DWMnLfZY8754CcKwWJiE885UxEooeX invoke [1]
+    Program log: Instruction: AddItem
+    Program 5sAeFvKkycHzV7DWMnLfZY8754CcKwWJiE885UxEooeX consumed 3514 of 200000 compute units
+    Program 5sAeFvKkycHzV7DWMnLfZY8754CcKwWJiE885UxEooeX success

@@ -1,0 +1,9 @@
+version: '3'
+services:
+  localnet:
+    platform: linux/amd64/v8
+    image: "solanalabs/solana:v1.14.17"
+    ports:
+      - "8899:8899"
+      - "8900:8900"
+      - "9900:9900"
