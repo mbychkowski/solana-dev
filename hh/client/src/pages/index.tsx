@@ -8,7 +8,6 @@ import {
 import { Program, AnchorProvider, web3 } from '@project-serum/anchor';
 import CreationForm from '@/components/CreationForm';
 
-import styled from 'styled-components';
 import ButtonStyled from '../styles/ButtonStyled';
 
 import kp from '../keypair.json';
@@ -17,7 +16,7 @@ const YOUR_PROGRAM_ADDRESS_HERE =
   '5sAeFvKkycHzV7DWMnLfZY8754CcKwWJiE885UxEooeX';
 
 // SystemProgram is a reference to the Solana runtime!
-const { SystemProgram, Keypair } = web3;
+const { SystemProgram } = web3;
 
 // Create a keypair for the account that will hold the GIF data.
 const arr = Object.values(kp._keypair.secretKey);
